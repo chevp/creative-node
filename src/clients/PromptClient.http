@@ -1,0 +1,12 @@
+### Create a new prompt
+POST http://localhost:3000/prompt
+Content-Type: application/json
+
+{
+    "endpoint": "completions",
+    "payload": {
+        "model": "text-davinci-003",
+        "prompt": "Your prompt text here",
+        "max_tokens": 100
+    }
+}

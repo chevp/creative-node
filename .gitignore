@@ -1,0 +1,40 @@
+# Node.js dependencies
+/node_modules/
+
+# Optional npm package lock file
+/package-lock.json
+
+# Logs
+*.log
+logs/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Coverage directory used by testing tools
+/coverage/
+
+# Build directories
+/dist/
+/build/
+
+# IDE/editor configuration files
+.vscode/
+.idea/
+
+# npm package output
+*.tgz
+
+# Optional: Ignore test files if you don’t want to track them
+/test/
+
+# Temporary files
+*.swp
+*.swo
+*.bak
